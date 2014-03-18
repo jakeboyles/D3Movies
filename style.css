@@ -1,0 +1,254 @@
+body {
+     background-image: url("img/blackboard.jpg");
+     background-repeat: repeat;
+     font-family: 'Open Sans',Helvetica;
+     margin: 0px;
+     padding: 0px;
+}
+
+div.tooltip {
+     background: url("img/blackboard.jpg") repeat scroll 0px 0px transparent;
+     border-radius: 8px 8px 8px 8px;
+     border: 3px solid #AA6143;
+     box-shadow: 0px 2px 15px #000000;
+     color: #FFFFFF;
+     float: left;
+     font: 12px sans-serif;
+     padding: 2px 10px;
+     position: absolute;
+     text-align: center;
+     width: 160px;
+}
+
+div.tooltip p {
+     line-height: 1.3em;
+}
+
+input {
+     font-family: Helvetica,sans-serif;
+}
+
+label {
+     color: #FFFFFF;
+     font-family: 'blackboardregular',Helvetica;
+}
+
+header {
+     margin: 30px auto 0px;
+     width: 900px;
+}
+
+header h1 {
+     color: #FFFFFF;
+     float: left;
+     font-family: 'blackboardregular',Helvetica;
+     font-size: 40px;
+     font-weight: normal;
+     margin: 0px;
+     text-align: center;
+     text-shadow: 0px 4px 6px #000000;
+}
+
+.push_button {
+     color: #FFFFFF;
+     display: block;
+     float: right;
+     font-family: 'Oswald',Helvetica;
+     height: 30px;
+     line-height: 25px;
+     margin: 0px 20px 20px -20px;
+     padding-top: 7px;
+     position: relative;
+     text-align: center;
+     text-decoration: none;
+     width: 100px;
+}
+
+.push_button:before {
+     background: none repeat scroll 0px 0px #F0F0F0;
+     border-radius: 5px 5px 5px 5px;
+     bottom: -10px;
+     box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.5) inset, 0px 1px 0px #FFFFFF;
+     content: "";
+     left: -6px;
+     position: absolute;
+     right: -6px;
+     top: -6px;
+     z-index: -1;
+}
+
+.push_button:active {
+     top: 5px;
+}
+
+.push_button:active:before {
+     bottom: -5px;
+     content: "";
+     top: -11px;
+}
+
+.red {
+     background: linear-gradient(to bottom, #F66C7B, #D25068) repeat scroll 0px 0px #D25068;
+     border-radius: 5px 5px 5px 5px;
+     border: 1px solid #D25068;
+     box-shadow: 0px 1px 0px rgba(255, 255, 255, 0.5) inset, 0px -1px 0px rgba(255, 255, 255, 0.1) inset, 0px 4px 0px #AD4257, 0px 4px 2px rgba(0, 0, 0, 0.5);
+     text-shadow: -1px -1px 0px #A84155;
+}
+
+.red:hover {
+     background: -moz-linear-gradient(center top , #D25068, #F66C7B) repeat scroll 0px 0px #F66C7B;
+}
+
+input {
+     padding: 5px 10px;
+}
+
+#target {
+     float: right;
+     width: 390px;
+}
+
+.close {
+     background-image: url("img/close.png");
+     background-position: left bottom;
+     background-repeat: no-repeat;
+     float: right;
+     height: 20px;
+     text-indent: -9999px;
+     width: 20px;
+}
+
+.tooltip h2 {
+     font-size: 14px;
+     margin-bottom: 5px;
+     padding: 0px;
+     text-align: center;
+     text-shadow: 2px 1px 6px #000000;
+     width: 90%;
+}
+
+.tooltip .buyName {
+     float: left;
+     margin-bottom: 5px;
+     width: 100%;
+}
+
+#container {
+     background-image: url("img/container.png");
+     background-position: left top;
+     background-repeat: no-repeat;
+     margin: 0px auto;
+     min-height: 550px;
+     width: 900px;
+}
+
+#chart {
+     float: left;
+     margin-top: 70px;
+}
+
+#footer {
+     background-image: url("img/footerbg.png");
+     background-repeat: repeat-x;
+     bottom: 0px;
+     height: 72px;
+     position: fixed;
+     width: 100%;
+}
+
+#footer .center {
+     margin: 0px auto;
+     width: 900px;
+}
+
+.eraser {
+     margin-top: 17px;
+}
+
+.chalk {
+     float: right;
+     margin-top: 20px;
+}
+
+.tomato {
+     float: right;
+     margin-left: 20px;
+}
+
+.woodtop {
+     background-image: url("img/headerTop.png");
+     background-repeat: repeat-x;
+     height: 10px;
+     position: fixed;
+     top: 0px;
+     width: 100%;
+}
+
+#search {
+     background-color: transparent;
+     background-image: url("img/searchbox.png");
+     background-repeat: no-repeat;
+     border: medium none;
+     color: #FFFFFF;
+     height: 40px;
+     padding-right: 20px;
+     padding-top: 0px;
+     width: 180px;
+}
+
+.go {
+     background-color: transparent;
+     background-image: url("img/Go.png");
+     background-repeat: no-repeat;
+     border: medium none;
+     height: 40px;
+     width: 64px;
+}
+
+.go:hover {
+     background-position: 0px -42px;
+}
+
+.buyName {
+     background-image: -moz-linear-gradient(center bottom , #FAA41A 17%, #F47820 59%);
+     border-radius: 0.5em 0.5em 0.5em 0.5em;
+     box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.2);
+     color: #000000;
+     font-size: 13px;
+     font-weight: normal;
+     margin: 0px auto;
+     padding: 5px 10px;
+     text-decoration: none;
+     text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.3);
+     width: 30% ! important;
+}
+
+.buyName:hover {
+     color: #FFFFFF;
+}
+
+.crit, .aud {
+     color: #F9F9F9;
+}
+
+input {
+     border: medium none ! important;
+}
+
+.tooltip img {
+     box-shadow: 0px 0px 12px #000000;
+     margin-top: 8px;
+}
+
+input[type="text"]:focus, input[type="password"]:focus {
+     outline: 0px none;
+}
+
+.docs {
+     color: #FFFFFF;
+float:right;
+margin:0px auto;
+text-align:right;
+margin-right:15%;
+font-size:12px;
+}

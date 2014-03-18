@@ -1,0 +1,69 @@
+<!doctype html>
+<!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+	<title>Rotten Finder</title>
+	<meta name="description" content="">
+	<meta name="author" content="">
+
+	<link rel="stylesheet" href="css/normalize.min.css">
+    <link rel="stylesheet" href="style.css">
+
+	<script src="js/libs/modernizr-2.5.3.min.js"></script>
+	<script src="js/libs/jquery-1.7.2.min.js"></script>
+
+	<script src="js/libs/d3.v2.min.js"></script>
+	<script src="js/Main.js"></script>
+	<script src="noty-master/js/noty/jquery.noty.js"></script>
+	<script type="text/javascript" src="noty-master/js/noty/layouts/top.js"></script>
+	<script type="text/javascript" src="noty-master/js/noty/layouts/center.js"></script>
+	<script type="text/javascript" src="noty-master/js/noty/themes/default.js"></script>
+	<link href='webfontkit-20130311-140716/stylesheet.css' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,600,700' rel='stylesheet' type='text/css'>
+</head>
+<body>
+<div class="woodtop">
+</div>
+<div id="container">
+	<header>
+		<h1>
+		Rotten Movie Finder
+		</h1>
+		<form onsubmit='return false;' id="target">
+		<label>Search</label>
+		<input required="true" type="text" id="search" name="text">
+		<input type="submit" class="go" id="go" value="">
+		</form>
+
+	</header>
+
+	<article>
+		<div id="chart">
+				</div>
+	</article>
+
+</div>
+	<svg>
+<defs>
+<pattern id="img1" patternUnits="userSpaceOnUse" width="30" height="45">
+<image xlink:href="img/tomato.png" x="0" y="0" width="30" height="45">
+</pattern>
+</defs>
+</svg>
+		<p class="docs">Data is provided by Rotten Tomatoes API</p>
+
+<div id="footer">
+<div class="center">
+<img class="eraser" src="img/eraser.png" alt="eraser">
+<img class="tomato" src="img/tomato.png" alt="tomato">
+<img class="chalk" src="img/chalk.png" alt="eraser">
+
+</div>
+</div>
+</body>
+</html>
